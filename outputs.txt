@@ -1,0 +1,31 @@
+{
+  "model": "phi3 (ollama)",
+  "latency_seconds": 19.004623889923096,
+  "prompt_length_chars": 3303,
+  "response": "I am a microservices architecture that improves scalability and deployment flexibility but introduces operational challenges such as distributed tracing, network latency, service discovery. Teams manage cross-cutting concerns using API gateways, service meshes, centralized logging, feature flags for gradual rollouts, A/B testing, controlled user exposure of new features with instant rollback capabilities if issues occur. I also employ patterns like event sourcing and streaming ETL in high-throughput messaging systems such as Apache Kafka to ensure fault tolerance through replication across nodes by producers writing events asynchronously. Caching strategies are utilized, including write-through, LRU policies for consistency, to improve response times from hundreds of milliseconds to single digits. Rate limiting controls client request volume with various strategies applied globally or per user/route using systems like Redis and NGINX."
+}
+
+
+{
+  "model": "phi3 (ollama)",
+  "latency_seconds": 14.835424661636353,
+  "prompt_length_chars": 3403,
+  "response": "As a seasoned software engineer with over five years of experience, I have been instrumental in architecting scalable microservices for various high-demand applications using RESTful APIs and gRPC protocols that ensure seamless communication within our lightweight infrastructure. My pivotal projects include the design and implementation of a robust event streaming system powered by Apache Kafka, which has significantly enhanced real-time data processing capabilities in analytics platforms I've worked on previously. Currently, my focus is honing feature flagging strategies to facilitate A/B testing for new user features while ensuring rollback capability if necessary and refining caching mechanisms using Redis within our cloud architecture for optimized performance outcomes."
+}
+
+
+
+{
+  "model": "phi3 (ollama)",
+  "latency_seconds": 14.749953031539917,
+  "prompt_length_chars": 4935,
+  "response": "I am Himanth Godari. I specialize in building scalable, reliable backend systems with a strong foundation in technology like Node.js, TypeScript, Rust, PostgreSQL, Docker, and gRPC. My recent interests lie in AI engineering where I focus on integrating advanced retrieval-augmented generation (RAG) techniques into modern distributed systems to develop intelligent applications that operate effectively at scale with practical embeddings and local LLM inference strategies."
+}
+
+
+{
+  "model": "phi3 (ollama)",
+  "latency_seconds": 23.945231914520264,
+  "prompt_length_chars": 4930,
+  "response": "I am Himanth Godari. As an experienced backend developer with a keen interest in building scalable and reliable systems, I've been involved extensively with Node.js, TypeScript, Rust, PostgreSQL, Docker, and gRPC technologies for crafting well-designed architectures that emphasize component resilience and distributed patterns of service communication within microservices ecosystems. My recent venture into AI engineering has been particularly exhilarating—delving deep into the practicalities of Retrieval-Augmented Generation (RAG) systems, vector databases such as Qdrant, advanced embedding techniques with SentenceTransformers and local language models like Phi-3 Mini and TinyLLaMA. This foray has allowed me to refine quantization strategies under the constraint of limited GPU resources while enhancing my aptitude in prompt engineering and ensuring grounded responses within contexts, an essential skill set as I aim towards a backend + AI hybrid engineer role that marries strong backend knowledge with modern intelligent system design."
+}
