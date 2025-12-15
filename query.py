@@ -7,8 +7,6 @@ from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
 QDRANT_HOST = "http://localhost:6333"
-HF_API_TOKEN = "HF_API_TOKEN"
-HF_MODEL = "gpt2"
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 client = QdrantClient(url=QDRANT_HOST)
